@@ -1,0 +1,541 @@
+1631602748: mosquitto version 2.0.12 starting
+1631602748: Config loaded from /mosquitto/config/mosquitto.conf.
+1631602748: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631602748: Create a configuration file which defines a listener to allow remote access.
+1631602748: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631602748: Opening ipv4 listen socket on port 1883.
+1631602748: Opening ipv6 listen socket on port 1883.
+1631602748: Error: Address not available
+1631602748: mosquitto version 2.0.12 running
+1631603514: mosquitto version 2.0.12 terminating
+1631603514: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631613402: mosquitto version 2.0.12 starting
+1631613402: Config loaded from /mosquitto/config/mosquitto.conf.
+1631613402: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631613402: Create a configuration file which defines a listener to allow remote access.
+1631613402: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631613402: Opening ipv4 listen socket on port 1883.
+1631613402: Opening ipv6 listen socket on port 1883.
+1631613402: Error: Address not available
+1631613402: mosquitto version 2.0.12 running
+1631614724: mosquitto version 2.0.12 terminating
+1631614724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631614727: mosquitto version 2.0.12 starting
+1631614727: Config loaded from /mosquitto/config/mosquitto.conf.
+1631614727: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631614727: Create a configuration file which defines a listener to allow remote access.
+1631614727: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631614727: Opening ipv4 listen socket on port 1883.
+1631614727: Opening ipv6 listen socket on port 1883.
+1631614727: Error: Address not available
+1631614727: mosquitto version 2.0.12 running
+1631616528: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631616875: mosquitto version 2.0.12 terminating
+1631616875: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631631574: mosquitto version 2.0.12 starting
+1631631574: Config loaded from /mosquitto/config/mosquitto.conf.
+1631631574: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631631574: Create a configuration file which defines a listener to allow remote access.
+1631631574: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631631574: Opening ipv4 listen socket on port 1883.
+1631631574: Opening ipv6 listen socket on port 1883.
+1631631574: Error: Address not available
+1631631574: mosquitto version 2.0.12 running
+1631633375: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631635176: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631636756: mosquitto version 2.0.12 terminating
+1631636756: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631636974: mosquitto version 2.0.12 starting
+1631636974: Config loaded from /mosquitto/config/mosquitto.conf.
+1631636974: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631636974: Create a configuration file which defines a listener to allow remote access.
+1631636974: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631636974: Opening ipv4 listen socket on port 1883.
+1631636974: Opening ipv6 listen socket on port 1883.
+1631636974: Error: Address not available
+1631636974: mosquitto version 2.0.12 running
+1631637022: mosquitto version 2.0.12 terminating
+1631637022: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631637149: mosquitto version 2.0.12 starting
+1631637149: Config loaded from /mosquitto/config/mosquitto.conf.
+1631637149: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631637149: Create a configuration file which defines a listener to allow remote access.
+1631637149: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631637149: Opening ipv4 listen socket on port 1883.
+1631637149: Opening ipv6 listen socket on port 1883.
+1631637149: Error: Address not available
+1631637149: mosquitto version 2.0.12 running
+1631637516: mosquitto version 2.0.12 terminating
+1631637516: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631637517: mosquitto version 2.0.12 starting
+1631637517: Config loaded from /mosquitto/config/mosquitto.conf.
+1631637517: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631637517: Create a configuration file which defines a listener to allow remote access.
+1631637517: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631637517: Opening ipv4 listen socket on port 1883.
+1631637517: Opening ipv6 listen socket on port 1883.
+1631637517: Error: Address not available
+1631637517: mosquitto version 2.0.12 running
+1631637949: mosquitto version 2.0.12 terminating
+1631637949: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631637949: mosquitto version 2.0.12 starting
+1631637949: Config loaded from /mosquitto/config/mosquitto.conf.
+1631637949: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1631637949: Create a configuration file which defines a listener to allow remote access.
+1631637949: For more details see https://mosquitto.org/documentation/authentication-methods/
+1631637949: Opening ipv4 listen socket on port 1883.
+1631637949: Opening ipv6 listen socket on port 1883.
+1631637949: Error: Address not available
+1631637949: mosquitto version 2.0.12 running
+1631638412: mosquitto version 2.0.12 terminating
+1631638412: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631638413: mosquitto version 2.0.12 starting
+1631638413: Config loaded from /mosquitto/config/mosquitto.conf.
+1631638413: Opening ipv4 listen socket on port 1883.
+1631638413: Opening ipv6 listen socket on port 1883.
+1631638413: mosquitto version 2.0.12 running
+1631638469: New connection from 172.23.0.1:59904 on port 1883.
+1631638469: Client <unknown> disconnected, not authorised.
+1631638480: New connection from 172.23.0.1:59908 on port 1883.
+1631638480: Client <unknown> disconnected, not authorised.
+1631638514: New connection from 172.23.0.1:59912 on port 1883.
+1631638514: New client connected from 172.23.0.1:59912 as mqttx_dc6aaf21 (p5, c1, k60, u'user2').
+1631638656: New connection from 172.23.0.1:59922 on port 1883.
+1631638656: New connection from 172.23.0.1:59924 on port 1883.
+1631638656: Client <unknown> disconnected due to malformed packet.
+1631638656: Client <unknown> disconnected due to malformed packet.
+1631638656: New connection from 172.23.0.1:59930 on port 1883.
+1631638656: Client <unknown> disconnected due to malformed packet.
+1631638657: New connection from 172.23.0.1:59936 on port 1883.
+1631638657: New connection from 172.23.0.1:59942 on port 1883.
+1631638657: Client <unknown> disconnected due to malformed packet.
+1631638657: Client <unknown> disconnected due to malformed packet.
+1631638657: New connection from 172.23.0.1:59948 on port 1883.
+1631638657: Client <unknown> disconnected due to malformed packet.
+1631638752: New connection from 172.23.0.1:59952 on port 1883.
+1631638752: Client <unknown> disconnected, not authorised.
+1631638761: mosquitto version 2.0.12 terminating
+1631638761: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1631638762: mosquitto version 2.0.12 starting
+1631638762: Config loaded from /mosquitto/config/mosquitto.conf.
+1631638762: Opening ipv4 listen socket on port 1883.
+1631638762: Opening ipv6 listen socket on port 1883.
+1631638762: mosquitto version 2.0.12 running
+1631638771: New connection from 172.23.0.1:59956 on port 1883.
+1631638771: New client connected from 172.23.0.1:59956 as mqttx_8b7ef6a3 (p5, c1, k60, u'user1').
+1631638842: New connection from 172.23.0.1:59960 on port 1883.
+1631638842: New client connected from 172.23.0.1:59960 as mqttx_dc6aaf21 (p5, c1, k60, u'user2').
+1631638989: Client mqttx_dc6aaf21 closed its connection.
+1631638989: Client mqttx_8b7ef6a3 closed its connection.
+1631639500: mosquitto version 2.0.12 terminating
+1631639500: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690607895: mosquitto version 2.0.15 starting
+1690607895: Config loaded from /mosquitto/config/mosquitto.conf.
+1690607895: Opening ipv4 listen socket on port 1883.
+1690607895: Opening ipv6 listen socket on port 1883.
+1690607895: mosquitto version 2.0.15 running
+1690607920: mosquitto version 2.0.15 terminating
+1690607920: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690607939: mosquitto version 2.0.15 starting
+1690607939: Config loaded from /mosquitto/config/mosquitto.conf.
+1690607939: Opening ipv4 listen socket on port 1883.
+1690607939: Opening ipv6 listen socket on port 1883.
+1690607939: mosquitto version 2.0.15 running
+1690607974: New connection from 172.19.0.1:40374 on port 1883.
+1690607974: Client mqttx_188a3699 disconnected, not authorised.
+1690608017: New connection from 172.19.0.1:40376 on port 1883.
+1690608017: Client mqttx_188a3699 disconnected, not authorised.
+1690608042: New connection from 172.19.0.1:40378 on port 1883.
+1690608042: Client mqttx_188a3699 disconnected, not authorised.
+1690608080: New connection from 172.19.0.1:40380 on port 1883.
+1690608080: Client mqttx_188a3699 disconnected, not authorised.
+1690608159: New connection from 172.19.0.1:40382 on port 1883.
+1690608159: Client mqttx_188a3699 disconnected, not authorised.
+1690608163: New connection from 172.19.0.1:40384 on port 1883.
+1690608163: Client auto-mqttx_768319c8 disconnected, not authorised.
+1690608317: New connection from 172.19.0.1:40386 on port 1883.
+1690608317: Client mqttx_188a3699 disconnected, not authorised.
+1690608675: New connection from 172.19.0.1:40388 on port 1883.
+1690608675: Client mqttx_188a3699 disconnected, not authorised.
+1690608684: New connection from 172.19.0.1:40390 on port 1883.
+1690608684: Client mqttx_188a3699 disconnected, not authorised.
+1690608687: New connection from 172.19.0.1:40392 on port 1883.
+1690608687: Client mqttx_188a3699 disconnected, not authorised.
+1690608706: New connection from 172.19.0.1:40394 on port 1883.
+1690608706: Client mqttx_188a3699 disconnected, not authorised.
+1690608717: New connection from 172.19.0.1:40396 on port 1883.
+1690608717: New client connected from 172.19.0.1:40396 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690608765: New connection from 172.19.0.1:40398 on port 1883.
+1690608765: Client mqttx_188a3699 disconnected, not authorised.
+1690608778: New connection from 172.19.0.1:40400 on port 1883.
+1690608778: Client mqttx_188a3699 disconnected, not authorised.
+1690608788: Client auto-mqttx_768319c8 disconnected.
+1690608812: New connection from 172.19.0.1:40402 on port 1883.
+1690608812: New client connected from 172.19.0.1:40402 as mqttx_188a3699 (p2, c0, k60, u'user1').
+1690608911: New connection from 172.19.0.1:40404 on port 1883.
+1690608911: New client connected from 172.19.0.1:40404 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690609739: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690610230: Client mqttx_188a3699 has exceeded timeout, disconnecting.
+1690610230: Client auto-mqttx_768319c8 has exceeded timeout, disconnecting.
+1690610235: New connection from 172.19.0.1:40406 on port 1883.
+1690610235: New client connected from 172.19.0.1:40406 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690610890: Client auto-mqttx_768319c8 has exceeded timeout, disconnecting.
+1690610894: New connection from 172.19.0.1:40408 on port 1883.
+1690610894: New client connected from 172.19.0.1:40408 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690611163: New connection from 172.19.0.1:40410 on port 1883.
+1690611163: New client connected from 172.19.0.1:40410 as mqttx_188a3699 (p2, c0, k60, u'user1').
+1690611540: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690611553: mosquitto version 2.0.15 terminating
+1690611553: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690611560: mosquitto version 2.0.15 starting
+1690611560: Config loaded from /mosquitto/config/mosquitto.conf.
+1690611560: Opening ipv4 listen socket on port 1883.
+1690611560: Opening ipv6 listen socket on port 1883.
+1690611560: mosquitto version 2.0.15 running
+1690611561: New connection from 172.19.0.1:40412 on port 1883.
+1690611561: New client connected from 172.19.0.1:40412 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690611574: New connection from 172.19.0.1:40414 on port 1883.
+1690611574: New client connected from 172.19.0.1:40414 as mqttx_188a3699 (p2, c0, k60, u'user1').
+1690611580: Client auto-mqttx_768319c8 disconnected.
+1690611590: New connection from 172.19.0.1:40416 on port 1883.
+1690611590: New client connected from 172.19.0.1:40416 as auto-mqttx_768319c8 (p2, c0, k60, u'user2').
+1690611937: Client auto-mqttx_768319c8 has exceeded timeout, disconnecting.
+1690612025: Client mqttx_188a3699 closed its connection.
+1690612097: mosquitto version 2.0.15 terminating
+1690612097: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690699197: mosquitto version 2.0.15 starting
+1690699197: Config loaded from /mosquitto/config/mosquitto.conf.
+1690699197: Opening ipv4 listen socket on port 1883.
+1690699197: Opening ipv6 listen socket on port 1883.
+1690699197: mosquitto version 2.0.15 running
+1690700249: New connection from 172.18.0.1:59230 on port 1883.
+1690700249: New client connected from 172.18.0.1:59230 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+1690700263: New connection from 172.18.0.1:59232 on port 1883.
+1690700263: New client connected from 172.18.0.1:59232 as mqttx_188a3699 (p5, c0, k60, u'user1').
+1690700274: Client mqttx_188a3699 closed its connection.
+1690700274: Client auto-mqttx_768319c8 closed its connection.
+1690700281: mosquitto version 2.0.15 terminating
+1690700281: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704021428: mosquitto version 2.0.15 starting
+1704021428: Config loaded from /mosquitto/config/mosquitto.conf.
+1704021428: Opening ipv4 listen socket on port 1883.
+1704021428: Opening ipv6 listen socket on port 1883.
+1704021428: mosquitto version 2.0.15 running
+1704021553: mosquitto version 2.0.15 terminating
+1704021553: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704021557: mosquitto version 2.0.15 starting
+1704021557: Config loaded from /mosquitto/config/mosquitto.conf.
+1704021557: Opening ipv4 listen socket on port 1883.
+1704021557: Opening ipv6 listen socket on port 1883.
+1704021557: mosquitto version 2.0.15 running
+1704021578: New connection from 172.18.0.1:56370 on port 1883.
+1704021578: New client connected from 172.18.0.1:56370 as mqttx_188a3699 (p5, c0, k60, u'user1').
+1704021581: New connection from 172.18.0.1:56372 on port 1883.
+1704021581: New client connected from 172.18.0.1:56372 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+1704021837: Client mqttx_188a3699 disconnected.
+1704021848: mosquitto version 2.0.15 terminating
+1704021848: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T11:24:11: mosquitto version 2.0.15 starting
+2023-12-31T11:24:11: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T11:24:11: Opening ipv4 listen socket on port 1883.
+2023-12-31T11:24:11: Opening ipv6 listen socket on port 1883.
+2023-12-31T11:24:11: mosquitto version 2.0.15 running
+2023-12-31T11:25:22: mosquitto version 2.0.15 terminating
+2023-12-31T11:25:22: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T11:25:24: mosquitto version 2.0.15 starting
+2023-12-31T11:25:24: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T11:25:24: Opening ipv4 listen socket on port 1883.
+2023-12-31T11:25:24: Opening ipv6 listen socket on port 1883.
+2023-12-31T11:25:24: mosquitto version 2.0.15 running
+2023-12-31T11:25:24: Expiring client auto-mqttx_768319c8 due to timeout.
+2023-12-31T11:25:24: Expiring client mqttx_188a3699 due to timeout.
+2023-12-31T11:25:28: New connection from 172.18.0.1:56378 on port 1883.
+2023-12-31T11:25:28: New client connected from 172.18.0.1:56378 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+2023-12-31T11:25:28: No will message specified.
+2023-12-31T11:25:28: Sending CONNACK to auto-mqttx_768319c8 (0, 0)
+2023-12-31T11:25:30: New connection from 172.18.0.1:56380 on port 1883.
+2023-12-31T11:25:30: New client connected from 172.18.0.1:56380 as mqttx_188a3699 (p5, c0, k60, u'user1').
+2023-12-31T11:25:30: No will message specified.
+2023-12-31T11:25:30: Sending CONNACK to mqttx_188a3699 (0, 0)
+2023-12-31T11:25:30: Received SUBSCRIBE from mqttx_188a3699
+2023-12-31T11:25:30: 	test/# (QoS 0)
+2023-12-31T11:25:30: mqttx_188a3699 0 test/#
+2023-12-31T11:25:30: Sending SUBACK to mqttx_188a3699
+2023-12-31T11:25:32: Received PUBLISH from auto-mqttx_768319c8 (d0, q1, r0, m14295, 'test/1', ... (20 bytes))
+2023-12-31T11:25:32: Sending PUBLISH to mqttx_188a3699 (d0, q0, r0, m0, 'test/1', ... (20 bytes))
+2023-12-31T11:25:32: Sending PUBACK to auto-mqttx_768319c8 (m14295, rc0)
+2023-12-31T11:25:40: Received PUBLISH from auto-mqttx_768319c8 (d0, q1, r0, m14296, 'test/1', ... (20 bytes))
+2023-12-31T11:25:40: Sending PUBLISH to mqttx_188a3699 (d0, q0, r0, m0, 'test/1', ... (20 bytes))
+2023-12-31T11:25:40: Sending PUBACK to auto-mqttx_768319c8 (m14296, rc0)
+2023-12-31T11:26:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:26:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:26:40: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:26:40: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:27:31: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:27:31: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:27:41: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:27:41: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:28:32: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:28:32: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:28:42: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:28:42: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:29:33: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:29:33: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:29:43: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:29:43: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:30:33: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:30:33: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:30:43: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:30:43: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:31:33: Received PINGREQ from mqttx_188a3699
+2023-12-31T11:31:33: Sending PINGRESP to mqttx_188a3699
+2023-12-31T11:31:44: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T11:31:44: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T11:33:06: Client mqttx_188a3699 has exceeded timeout, disconnecting.
+2023-12-31T11:33:18: Client auto-mqttx_768319c8 has exceeded timeout, disconnecting.
+2023-12-31T11:36:15: mosquitto version 2.0.15 terminating
+2023-12-31T11:36:15: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T11:36:17: mosquitto version 2.0.15 starting
+2023-12-31T11:36:17: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T11:36:17: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.dll
+2023-12-31T11:36:17: Error: Unable to load auth plugin "/mosquitto/dll/mosquitto_payload_modification.dll".
+2023-12-31T11:36:17: Load error: Error loading shared library /mosquitto/dll/mosquitto_payload_modification.dll: Exec format error
+2023-12-31T11:37:16: mosquitto version 2.0.15 starting
+2023-12-31T11:37:16: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T11:37:16: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.dll
+2023-12-31T11:37:16: Error: Unable to load auth plugin "/mosquitto/dll/mosquitto_payload_modification.dll".
+2023-12-31T11:37:16: Load error: Error loading shared library /mosquitto/dll/mosquitto_payload_modification.dll: Exec format error
+2023-12-31T11:45:07: mosquitto version 2.0.15 starting
+2023-12-31T11:45:07: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T11:45:07: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.dll
+2023-12-31T11:45:07: Error: Unable to load auth plugin "/mosquitto/dll/mosquitto_payload_modification.dll".
+2023-12-31T11:45:07: Load error: Error loading shared library /mosquitto/dll/mosquitto_payload_modification.dll: Exec format error
+2023-12-31T16:04:10: mosquitto version 2.0.15 starting
+2023-12-31T16:04:10: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T16:04:10: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2023-12-31T16:04:10: [mosquitto_plugin_init]
+2023-12-31T16:04:10: opts[0] key = db_host, v = 127.0.0.1
+2023-12-31T16:04:10: opts[1] key = db_host, v = 127.0.0.1
+2023-12-31T16:04:10: Opening ipv4 listen socket on port 1883.
+2023-12-31T16:04:10: Opening ipv6 listen socket on port 1883.
+2023-12-31T16:04:10: mosquitto version 2.0.15 running
+2023-12-31T16:05:29: New connection from 172.18.0.1:56438 on port 1883.
+2023-12-31T16:05:29: [callback_basic_auth] username=user1, password=123456, client_id=mqttx_188a3699, client_address=172.18.0.1
+2023-12-31T16:05:29: New client connected from 172.18.0.1:56438 as mqttx_188a3699 (p5, c0, k60, u'user1').
+2023-12-31T16:05:29: No will message specified.
+2023-12-31T16:05:29: Sending CONNACK to mqttx_188a3699 (0, 0)
+2023-12-31T16:05:29: Received SUBSCRIBE from mqttx_188a3699
+2023-12-31T16:05:29: 	test/# (QoS 0)
+2023-12-31T16:05:29: [callback_basic_auth] username=user1, client_id=mqttx_188a3699, topic=test/#, access=4, qos=0, retain=0
+2023-12-31T16:05:29: mqttx_188a3699 0 test/#
+2023-12-31T16:05:29: Sending SUBACK to mqttx_188a3699
+2023-12-31T16:05:33: New connection from 172.18.0.1:56440 on port 1883.
+2023-12-31T16:05:33: [callback_basic_auth] username=user2, password=123456, client_id=auto-mqttx_768319c8, client_address=172.18.0.1
+2023-12-31T16:05:33: New client connected from 172.18.0.1:56440 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+2023-12-31T16:05:33: No will message specified.
+2023-12-31T16:05:33: Sending CONNACK to auto-mqttx_768319c8 (0, 0)
+2023-12-31T16:05:35: [callback_basic_auth] username=user2, client_id=auto-mqttx_768319c8, topic=test/1, access=2, qos=1, retain=0
+2023-12-31T16:05:35: Received PUBLISH from auto-mqttx_768319c8 (d0, q1, r0, m46615, 'test/1', ... (20 bytes))
+2023-12-31T16:05:35: [callback_basic_auth] username=user1, client_id=mqttx_188a3699, topic=test/1, access=1, qos=1, retain=0
+2023-12-31T16:05:35: Sending PUBLISH to mqttx_188a3699 (d0, q0, r0, m0, 'test/1', ... (20 bytes))
+2023-12-31T16:05:35: Sending PUBACK to auto-mqttx_768319c8 (m46615, rc0)
+2023-12-31T16:06:29: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:06:29: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:06:35: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:06:35: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:07:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:07:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:07:36: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:07:36: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:08:31: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:08:31: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:08:37: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:08:37: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:09:31: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:09:31: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:09:38: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:09:38: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:10:32: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:10:32: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:10:38: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:10:38: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:11:32: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:11:32: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:11:39: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:11:39: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:12:32: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:12:32: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:12:40: mosquitto version 2.0.15 terminating
+2023-12-31T16:12:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T16:12:40: [mosquitto_plugin_cleanup]
+2023-12-31T16:12:42: mosquitto version 2.0.15 starting
+2023-12-31T16:12:42: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T16:12:42: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2023-12-31T16:12:42: [mosquitto_plugin_init]
+2023-12-31T16:12:42: opts[0] key = db_host, v = 127.0.0.1
+2023-12-31T16:12:42: opts[1] key = db_port, v = 10086
+2023-12-31T16:12:42: Opening ipv4 listen socket on port 1883.
+2023-12-31T16:12:42: Opening ipv6 listen socket on port 1883.
+2023-12-31T16:12:42: mosquitto version 2.0.15 running
+2023-12-31T16:12:42: Expiring client auto-mqttx_768319c8 due to timeout.
+2023-12-31T16:12:42: Expiring client mqttx_188a3699 due to timeout.
+2023-12-31T16:13:02: New connection from 172.18.0.1:56442 on port 1883.
+2023-12-31T16:13:02: [callback_basic_auth] username=user1, password=123456, client_id=mqttx_188a3699, client_address=172.18.0.1
+2023-12-31T16:13:02: New client connected from 172.18.0.1:56442 as mqttx_188a3699 (p5, c0, k60, u'user1').
+2023-12-31T16:13:02: No will message specified.
+2023-12-31T16:13:02: Sending CONNACK to mqttx_188a3699 (0, 0)
+2023-12-31T16:13:02: Received SUBSCRIBE from mqttx_188a3699
+2023-12-31T16:13:02: 	test/# (QoS 0)
+2023-12-31T16:13:02: [callback_basic_auth] username=user1, client_id=mqttx_188a3699, topic=test/#, access=4, qos=0, retain=0
+2023-12-31T16:13:02: mqttx_188a3699 0 test/#
+2023-12-31T16:13:02: Sending SUBACK to mqttx_188a3699
+2023-12-31T16:13:05: New connection from 172.18.0.1:56444 on port 1883.
+2023-12-31T16:13:05: [callback_basic_auth] username=user2, password=123456, client_id=auto-mqttx_768319c8, client_address=172.18.0.1
+2023-12-31T16:13:05: New client connected from 172.18.0.1:56444 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+2023-12-31T16:13:05: No will message specified.
+2023-12-31T16:13:05: Sending CONNACK to auto-mqttx_768319c8 (0, 0)
+2023-12-31T16:13:07: [callback_basic_auth] username=user2, client_id=auto-mqttx_768319c8, topic=test/1, access=2, qos=1, retain=0
+2023-12-31T16:13:07: Received PUBLISH from auto-mqttx_768319c8 (d0, q1, r0, m15690, 'test/1', ... (20 bytes))
+2023-12-31T16:13:07: [callback_basic_auth] username=user1, client_id=mqttx_188a3699, topic=test/1, access=1, qos=1, retain=0
+2023-12-31T16:13:07: Sending PUBLISH to mqttx_188a3699 (d0, q0, r0, m0, 'test/1', ... (20 bytes))
+2023-12-31T16:13:07: Sending PUBACK to auto-mqttx_768319c8 (m15690, rc0)
+2023-12-31T16:14:02: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:14:02: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:14:07: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:14:07: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:15:03: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:15:03: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:15:08: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:15:08: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:15:41: mosquitto version 2.0.15 terminating
+2023-12-31T16:15:41: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T16:15:41: [mosquitto_plugin_cleanup]
+2023-12-31T16:15:43: mosquitto version 2.0.15 starting
+2023-12-31T16:15:43: Config loaded from /mosquitto/config/mosquitto.conf.
+2023-12-31T16:15:43: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2023-12-31T16:15:43: [mosquitto_plugin_init]
+2023-12-31T16:15:43: opts[0] key = db_host, v = 127.0.0.1
+2023-12-31T16:15:43: opts[1] key = db_port, v = 10086
+2023-12-31T16:15:43: Opening ipv4 listen socket on port 1883.
+2023-12-31T16:15:43: Opening ipv6 listen socket on port 1883.
+2023-12-31T16:15:43: mosquitto version 2.0.15 running
+2023-12-31T16:15:43: Expiring client auto-mqttx_768319c8 due to timeout.
+2023-12-31T16:15:43: Expiring client mqttx_188a3699 due to timeout.
+2023-12-31T16:15:58: New connection from 172.18.0.1:56446 on port 1883.
+2023-12-31T16:15:58: [callback_basic_auth] username=user1, password=123456, client_id=mqttx_188a3699, client_address=172.18.0.1
+2023-12-31T16:15:58: New client connected from 172.18.0.1:56446 as mqttx_188a3699 (p5, c0, k60, u'user1').
+2023-12-31T16:15:58: No will message specified.
+2023-12-31T16:15:58: Sending CONNACK to mqttx_188a3699 (0, 0)
+2023-12-31T16:15:58: Received SUBSCRIBE from mqttx_188a3699
+2023-12-31T16:15:58: 	test/# (QoS 0)
+2023-12-31T16:15:58: [callback_acl_check] username=user1, client_id=mqttx_188a3699, topic=test/#, access=4, qos=0, retain=0
+2023-12-31T16:15:58: mqttx_188a3699 0 test/#
+2023-12-31T16:15:58: Sending SUBACK to mqttx_188a3699
+2023-12-31T16:16:00: New connection from 172.18.0.1:56448 on port 1883.
+2023-12-31T16:16:00: [callback_basic_auth] username=user2, password=123456, client_id=auto-mqttx_768319c8, client_address=172.18.0.1
+2023-12-31T16:16:00: New client connected from 172.18.0.1:56448 as auto-mqttx_768319c8 (p5, c0, k60, u'user2').
+2023-12-31T16:16:00: No will message specified.
+2023-12-31T16:16:00: Sending CONNACK to auto-mqttx_768319c8 (0, 0)
+2023-12-31T16:16:01: [callback_acl_check] username=user2, client_id=auto-mqttx_768319c8, topic=test/1, access=2, qos=1, retain=0
+2023-12-31T16:16:01: Received PUBLISH from auto-mqttx_768319c8 (d0, q1, r0, m29805, 'test/1', ... (20 bytes))
+2023-12-31T16:16:01: [callback_acl_check] username=user1, client_id=mqttx_188a3699, topic=test/1, access=1, qos=1, retain=0
+2023-12-31T16:16:01: Sending PUBLISH to mqttx_188a3699 (d0, q0, r0, m0, 'test/1', ... (20 bytes))
+2023-12-31T16:16:01: Sending PUBACK to auto-mqttx_768319c8 (m29805, rc0)
+2023-12-31T16:16:58: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:16:58: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:17:01: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:17:01: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:17:59: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:17:59: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:18:02: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:18:02: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:19:00: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:19:00: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:19:03: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:19:03: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:20:01: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:20:01: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:20:04: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:20:04: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:21:01: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:21:01: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:21:04: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:21:04: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:22:01: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:22:01: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:22:04: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:22:04: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:23:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:23:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:23:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:23:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:24:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:24:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:24:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:24:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:25:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:25:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:25:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:25:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:26:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:26:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:26:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:26:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:27:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:27:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:27:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:27:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:28:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:28:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:28:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:28:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:29:30: Received PINGREQ from auto-mqttx_768319c8
+2023-12-31T16:29:30: Sending PINGRESP to auto-mqttx_768319c8
+2023-12-31T16:29:30: Received PINGREQ from mqttx_188a3699
+2023-12-31T16:29:30: Sending PINGRESP to mqttx_188a3699
+2023-12-31T16:31:01: Client mqttx_188a3699 has exceeded timeout, disconnecting.
+2023-12-31T16:31:01: Client auto-mqttx_768319c8 has exceeded timeout, disconnecting.
+2023-12-31T16:45:44: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T16:49:02: mosquitto version 2.0.15 terminating
+2023-12-31T16:49:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2023-12-31T16:49:02: [mosquitto_plugin_cleanup]
+2024-01-01T09:59:56: mosquitto version 2.0.15 starting
+2024-01-01T09:59:56: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-01-01T09:59:56: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2024-01-01T09:59:56: [mosquitto_plugin_init]
+2024-01-01T09:59:56: opts[0] key = grpc_path, v = /mosquitto/dll/grpc_auth.so
+2024-01-01T09:59:56: opts[1] key = grpc_addr, v = :10086
+2024-01-01T09:59:56: [mosquitto_plugin_init] dlerror = Error loading shared library :10086: No such file or directory
+2024-01-01T09:59:56: Error: Plugin returned 17 when initialising.
+2024-01-01T10:03:03: mosquitto version 2.0.15 starting
+2024-01-01T10:03:03: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-01-01T10:03:03: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2024-01-01T10:03:03: [mosquitto_plugin_init]
+2024-01-01T10:03:03: opts[0] key = grpc_path, v = /mosquitto/dll/grpc_auth.so
+2024-01-01T10:03:03: opts[1] key = grpc_addr, v = :10086
+2024-01-01T10:03:03: [mosquitto_plugin_init] grpc_path = :10086, dlerror = Error loading shared library :10086: No such file or directory
+2024-01-01T10:03:03: Error: Plugin returned 17 when initialising.
+2024-01-01T10:12:25: mosquitto version 2.0.15 starting
+2024-01-01T10:12:25: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-01-01T10:12:25: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2024-01-01T10:12:25: [mosquitto_plugin_init]
+2024-01-01T10:12:25: opts[0] key = grpc_path, v = /mosquitto/dll/grpc_auth.so
+2024-01-01T10:12:25: opts[1] key = grpc_addr, v = :10086
+2024-01-01T10:12:25: [mosquitto_plugin_init] grpc_path = :10086, dlerror = Error loading shared library :10086: No such file or directory
+2024-01-01T10:12:25: Error: Plugin returned 17 when initialising.
+2024-01-01T10:15:49: mosquitto version 2.0.15 starting
+2024-01-01T10:15:49: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-01-01T10:15:49: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2024-01-01T10:15:49: [mosquitto_plugin_init]
+2024-01-01T10:15:49: opts[0] key = grpc_path, v = /mosquitto/dll/grpc_auth.so
+2024-01-01T10:15:49: opts[1] key = grpc_addr, v = :10086
+2024-01-01T10:15:49: [mosquitto_plugin_init] grpc_path = /mosquitto/dll/grpc_auth.so, dlerror = Error relocating /mosquitto/dll/grpc_auth.so: __vfprintf_chk: symbol not found
+2024-01-01T10:15:49: Error: Plugin returned 17 when initialising.
+2024-01-04T12:53:16: mosquitto version 2.0.15 starting
+2024-01-04T12:53:16: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-01-04T12:53:16: Loading plugin: /mosquitto/dll/mosquitto_payload_modification.so
+2024-01-04T12:53:16: [mosquitto_plugin_init]
+2024-01-04T12:53:16: opts[0] key = grpc_path, v = /mosquitto/dll/grpc_auth.so
+2024-01-04T12:53:16: opts[1] key = grpc_addr, v = 127.0.0.1:10086
+2024-01-04T12:53:16: [mosquitto_plugin_init] grpc_path = /mosquitto/dll/grpc_auth.so, dlerror = Error relocating /mosquitto/dll/grpc_auth.so: __vfprintf_chk: symbol not found
+2024-01-04T12:53:16: Error: Plugin returned 17 when initialising.

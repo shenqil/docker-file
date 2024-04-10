@@ -1,0 +1,7 @@
+user user1
+topic read test/#
+topic read $SYS/#
+
+user user2
+topic write test/#
+topic read $SYS/#
