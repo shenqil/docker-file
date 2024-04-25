@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  file-server:
+    image: fssq/file-server:latest
+    ports:
+      - 11888:11888
+    volumes:
+      - ./config.toml:/config.toml
