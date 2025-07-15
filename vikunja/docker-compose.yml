@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  vikunja:
+    image: vikunja/vikunja
+    environment:
+      VIKUNJA_SERVICE_JWTSECRET: supersecurechangeme123  # 替换为一个强随机字符串
+      VIKUNJA_SERVICE_PUBLICURL: http://localhost:3456/  # 本地运行，设置为本地访问地址
+      VIKUNJA_DATABASE_TYPE: sqlite  # 明确指定使用 sqlite
+      VIKUNJA_DATABASE_PATH: /db/vikunja.db  # 数据库存储路径（挂载卷后存储到宿主机）
+    ports:
+      - 3456:3456
+    volumes:
+      - ./files:/app/vikunja/files  # 文件挂载目录
+      - ./db:/db  # SQLite 数据库存储目录
+    restart: unless-stopped
