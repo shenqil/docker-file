@@ -1,0 +1,10 @@
+services:
+  chisel-server:
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/chisel:latest
+    container_name: chisel-server
+    command: server --port 9090 --key chisel123
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai  # 设置时区，根据需要修改
