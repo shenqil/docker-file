@@ -14,14 +14,17 @@ services:
     restart: unless-stopped
 
   influxdb-ui:
-    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb3-ui
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb3-ui:1.1.1
     container_name: influxdb3-ui
     ports:
-      - "8888:80"        # UI 默认 http 端口80，映射到宿主机8888端口
-      - "8889:8888"      # Admin API 端口
+      - "8888:80"         # UI 默认 http 端口80，映射到宿主机8888端口
+      - "8889:8888"       # Admin API 端口，暴露出来
+    volumes:
+      - influxdbUI_data:/db:rw  # 使用 Docker Volume 来保存数据
     command:
       - --mode=admin
     restart: unless-stopped
 
 volumes:
   influxdb-data:
+  influxdbUI_data:
