@@ -1,6 +1,8 @@
+version: '3'
+
 services:
   chisel-server:
-    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/chisel:latest
+    image: jpillora/chisel
     container_name: chisel-server
     command: server --port 9090 --key chisel123
     ports:
