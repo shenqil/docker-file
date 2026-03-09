@@ -3,7 +3,8 @@ name: influxdb3-stack
 services:
   influxdb3-core:
     container_name: influxdb3-core
-    image: influxdb:3-core
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb:3-core
+    user: "root"
     ports:
       - "8181:8181"
     environment:
@@ -16,13 +17,9 @@ services:
       - --data-dir=/var/lib/influxdb3/data
       - --plugin-dir=/var/lib/influxdb3/plugins
     volumes:
-      # 使用 bind 模式挂载到宿主机当前用户的家目录下
-      - type: bind
-        source: ~/.influxdb3/core/data
-        target: /var/lib/influxdb3/data
-      - type: bind
-        source: ~/.influxdb3/core/plugins
-        target: /var/lib/influxdb3/plugins
+      # 修复点：改用 Docker 命名的 Volume，彻底解决 13 Permission Denied 报错
+      - influxdb3-data:/var/lib/influxdb3/data
+      - influxdb3-plugins:/var/lib/influxdb3/plugins
     logging:
       driver: "json-file"
       options:
@@ -31,7 +28,7 @@ services:
     restart: unless-stopped
 
   influxdb3-ui:
-    image: influxdata/influxdb3-ui:latest # 官方最新版 UI 镜像
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb3-ui:latest # UI 镜像
     container_name: influxdb3-ui
     ports:
       - "8888:80" # UI Web 访问端口
@@ -52,4 +49,7 @@ services:
     restart: unless-stopped
 
 volumes:
-  influxdbUI_data: # 声明 UI 需要使用的 Volume
+  # 修复点：在全局声明刚刚添加的数据卷
+  influxdb3-data:
+  influxdb3-plugins:
+  influxdbUI_data:
