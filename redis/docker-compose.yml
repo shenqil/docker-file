@@ -1,6 +1,6 @@
 services:
   redis:
-    image: redis:alpine
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/redis:alpine
     container_name: redis
     restart: unless-stopped # 【优化1】比 always 更优雅
     environment:
