@@ -1,30 +1,55 @@
+name: influxdb3-stack
+
 services:
-  influxdb:
-    image: quay.io/influxdb/influxdb3-core:latest
-    container_name: influxdb3
+  influxdb3-core:
+    container_name: influxdb3-core
+    image: influxdb:3-core
     ports:
-      - "8181:8181"      # InfluxDB 服务端口，容器内默认8181
-    volumes:
-      - influxdb-data:/var/lib/influxdb3
+      - "8181:8181"
+    environment:
+      - TZ=Asia/Shanghai # 同步时区，确保数据时间戳准确
     command:
+      - influxdb3
       - serve
-      - --node-id=host01
+      - --node-id=node0
       - --object-store=file
-      - --data-dir=/var/lib/influxdb3
+      - --data-dir=/var/lib/influxdb3/data
+      - --plugin-dir=/var/lib/influxdb3/plugins
+    volumes:
+      # 使用 bind 模式挂载到宿主机当前用户的家目录下
+      - type: bind
+        source: ~/.influxdb3/core/data
+        target: /var/lib/influxdb3/data
+      - type: bind
+        source: ~/.influxdb3/core/plugins
+        target: /var/lib/influxdb3/plugins
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m" # 限制日志大小，防止撑爆磁盘
+        max-file: "3"
     restart: unless-stopped
 
-  influxdb-ui:
-    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb3-ui:1.1.1
+  influxdb3-ui:
+    image: influxdata/influxdb3-ui:latest # 官方最新版 UI 镜像
     container_name: influxdb3-ui
     ports:
-      - "8888:80"         # UI 默认 http 端口80，映射到宿主机8888端口
-      - "8889:8888"       # Admin API 端口，暴露出来
+      - "8888:80" # UI Web 访问端口
+      - "8889:8888" # Admin API 通信端口
+    environment:
+      - TZ=Asia/Shanghai
     volumes:
-      - influxdbUI_data:/db:rw  # 使用 Docker Volume 来保存数据
+      - influxdbUI_data:/db:rw # UI 数据存放，使用 Volume 确保重启不丢失
     command:
-      - --mode=admin
+      - --mode=admin # 开启 Admin 模式，支持全量管理功能
+    depends_on:
+      - influxdb3-core # 确保数据库先启动
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
     restart: unless-stopped
 
 volumes:
-  influxdb-data:
-  influxdbUI_data:
+  influxdbUI_data: # 声明 UI 需要使用的 Volume
