@@ -1,0 +1,33 @@
+services:
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: unless-stopped # 【优化1】比 always 更优雅
+    environment:
+      - TZ=Asia/Shanghai # 【优化2】统一时区，方便看日志
+    ports:
+      - "6379:6379" # 【优化3】安全加固：仅允许宿主机本地连接
+    command: >
+      redis-server 
+      --requirepass your_strong_password 
+      --appendonly yes 
+      --maxmemory 1024mb 
+      --maxmemory-policy allkeys-lru
+    volumes:
+      - ./data:/data
+    networks:
+      - backend_net
+    healthcheck: # 【优化4】添加健康检查
+      test: ["CMD", "redis-cli", "-a", "your_strong_password", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging: # 【优化5】限制日志大小
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+networks:
+  backend_net:
+    driver: bridge

@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  node-rpa:
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/node-rpa-service:latest
+    container_name: rpa-service-node
+    restart: always
+
+    # 1. 设置环境变量，代码中通过 process.env.RPA_ENV 访问
+    environment:
+      - RPA_ENV=pre
+      - NODE_ENV=production
+      - TZ=Asia/Shanghai # 设置容器时区为北京时间
+
+    # 2. 端口映射
+    ports:
+      - "10707:10707"
+
+    # 3. 目录挂载
+    volumes:
+      # 将应用日志挂载到宿主机的当前目录下的 logs 文件夹
+      # 建议在容器内代码将日志写入 /app/logs
+      - ./logs:/app/logs
+
+    # 4. 性能优化 (Playwright 运行 Chromium 必需)
+    # 解决 Docker 默认 /dev/shm 分区太小导致浏览器崩溃的问题
+    shm_size: "2gb"
+    # 或者使用 ipc: host，两者选其一即可
+    ipc: host
+
+    # 5. 健康检查
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10707/ping"]
+      interval: 30s # 每 30 秒检查一次
+      timeout: 10s # 超过 10 秒未响应视为失败
+      retries: 3 # 连续失败 3 次后标记为 unhealthy
+      start_period: 20s # 应用启动较慢，前 20 秒不计入失败
+
+networks:
+  default:
+    name: rpa-network
