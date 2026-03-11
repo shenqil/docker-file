@@ -1,0 +1,135 @@
+# 遵循最新 Compose 规范，已移除废弃的 version 字段
+
+services:
+  # =========================================
+  # 1. MySQL: 负责存储业务元数据、用户配置与 AI 逻辑状态
+  # =========================================
+  mysql:
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/mysql:8.0.45-debian
+    container_name: mysql-prod
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
+      MYSQL_DATABASE: prod_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: ${DB_APP_PASS}
+    command: >
+      --innodb-buffer-pool-size=128M 
+      --max-connections=100 
+      --performance-schema=off
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro # 强制宿主机时间同步
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 600M
+        reservations:
+          cpus: "0.2"
+          memory: 200M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+    healthcheck:
+      # 消除密码警告日志，确保健康检查静默运行
+      test:
+        [
+          "CMD-SHELL",
+          "MYSQL_PWD=${DB_ROOT_PASS} mysqladmin ping -h 127.0.0.1 -uroot || exit 1",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  # =========================================
+  # 2. Redis: 负责 AI 对话上下文缓存与高频访问阻挡
+  # =========================================
+  redis:
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/redis:alpine
+    container_name: redis
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "6379:6379"
+    command: >
+      redis-server 
+      --requirepass ${REDIS_PASS} 
+      --appendonly yes 
+      --maxmemory 100mb 
+      --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+      - /etc/localtime:/etc/localtime:ro
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 200M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+    healthcheck:
+      test:
+        ["CMD-SHELL", "redis-cli -a ${REDIS_PASS} ping | grep PONG || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+  # =========================================
+  # 3. InfluxDB: 负责承载海量 IoT 设备时序数据流
+  # =========================================
+  influxdb3-core:
+    container_name: influxdb3-core
+    image: crpi-14aq4ypr9y9smv5q.cn-hangzhou.personal.cr.aliyuncs.com/fssq/influxdb:3-core
+    user: "root"
+    restart: unless-stopped
+    ports:
+      - "8181:8181"
+    environment:
+      - TZ=Asia/Shanghai
+    command:
+      - influxdb3
+      - serve
+      - --node-id=node0
+      - --object-store=file
+      - --data-dir=/var/lib/influxdb3/data
+      - --plugin-dir=/var/lib/influxdb3/plugins
+    volumes:
+      - influxdb3-data:/var/lib/influxdb3/data
+      - influxdb3-plugins:/var/lib/influxdb3/plugins
+      - /etc/localtime:/etc/localtime:ro
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 600M
+        reservations:
+          cpus: "0.2"
+          memory: 200M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+# =========================================
+# 全局数据卷托管
+# =========================================
+volumes:
+  mysql_data:
+  redis_data:
+  influxdb3-data:
+  influxdb3-plugins:
